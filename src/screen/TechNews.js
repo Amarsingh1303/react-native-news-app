@@ -16,7 +16,7 @@ const TechNews = ({ navigation }) => {
         "http://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=df94152aaf0645c1920cc60c4e921f5c"
       );
       setNews(result.data.articles);
-      console.log(result.data.articles);
+      // console.log(result.data.articles);
     };
     getNews();
     // console.log(news);
